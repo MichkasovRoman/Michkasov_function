@@ -15,3 +15,4 @@ while index < size:
     Michkasov_function (array[index], 2) = element
     index = index + 1
 print (array)
+
