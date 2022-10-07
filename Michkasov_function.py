@@ -5,8 +5,6 @@ def Michkasov_function (number, base):
         result = result + 1
     print (result)
 
-Michkasov_function (375, 5)
-
 array =[1,2,3]
 index = 0
 size = 3
@@ -17,4 +15,3 @@ while index < size:
     array[index] = m
     index = index + 1
 print (array)
-
