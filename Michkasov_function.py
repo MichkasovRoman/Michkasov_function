@@ -17,3 +17,4 @@ while index < size:
     array[index] = m
     index = index + 1
 print (array)
+
