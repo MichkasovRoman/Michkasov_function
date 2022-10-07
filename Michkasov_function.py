@@ -10,9 +10,7 @@ index = 0
 size = 3
 element = array[0]
 while index < size:
-    element = array[index] 
-    array[index] = Michkasov_function (array[index], 2)
-    Michkasov_function (array[index], 2) = element
+    m = Michkasov_function (array[index], 2)
+    array[index] = m
     index = index + 1
 print (array)
-
