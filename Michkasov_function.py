@@ -11,7 +11,6 @@ size = 3
 element = array[0]
 while index < size:
     m = Michkasov_function (array[index], 2)
-    element = array[index]
     array[index] = m
     index = index + 1
 print (array)
