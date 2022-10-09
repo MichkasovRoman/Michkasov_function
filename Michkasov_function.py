@@ -5,7 +5,7 @@ def michkasov_function (number, base):
         result = result + 1
     return result
 
-array =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+array =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23]
 array_result = []
 for item in array:
     m = michkasov_function(item, 2)
@@ -17,5 +17,6 @@ print ("Set of function values Y =", array_result)
 from matplotlib import pyplot as plt   
 #ploting our canvas   
 plt.plot(array,array_result)   
-#display the graph   
+#display the graph#
+plt.title("Plot of the Michkasov function with base n = 2")    
 plt.show()   
