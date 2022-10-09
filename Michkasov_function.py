@@ -11,5 +11,5 @@ for item in array:
     m = michkasov_function(item, 2)
     array_result.append(m)
 
-print (array)
-print (array_result)   
+print ("Set of integer function arguments X = ", array)
+print ("Set of function values Y =", array_result)   
