@@ -17,6 +17,8 @@ print ("Set of function values Y =", array_result)
 from matplotlib import pyplot as plt   
 #ploting our canvas   
 plt.plot(array,array_result)   
-#display the graph#
+#display the graph# 
+plt.xlabel("X axis")
+plt.ylabel("Y axis")
 plt.title("Plot of the Michkasov function with base n = 2")    
 plt.show()   
