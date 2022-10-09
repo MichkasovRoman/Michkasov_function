@@ -13,3 +13,9 @@ for item in array:
 
 print ("Set of integer function arguments X = ", array)
 print ("Set of function values Y =", array_result)   
+
+from matplotlib import pyplot as plt   
+#ploting our canvas   
+plt.plot(array,array_result)   
+#display the graph   
+plt.show()   
